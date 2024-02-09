@@ -26,7 +26,7 @@ provider "cloudinit" {
 }
 
 variable "labelPrefix" {
-  type = string
+  type        = string
   description = "Your college username. This will form the beginning of various resource names."
 }
 
